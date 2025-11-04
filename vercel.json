@@ -13,7 +13,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "/src/$1"
     }
   ],
   "buildCommand": "npm run build"
